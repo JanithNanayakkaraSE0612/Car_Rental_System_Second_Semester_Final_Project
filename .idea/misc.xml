@@ -2,11 +2,13 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../Car_Rental_System" />
+    <file type="web" url="file://$PROJECT_DIR$/Car_Rental_System" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../Car_Rental_System/pom.xml" />
+        <option value="$PROJECT_DIR$/Car_Rental_System/pom.xml" />
       </list>
     </option>
   </component>
