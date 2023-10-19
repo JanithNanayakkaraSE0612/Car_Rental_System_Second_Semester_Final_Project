@@ -11,13 +11,13 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Car_Rental_System" />
+          <element id="module-output" name="Car_Rental_System_Back-End" />
         </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/Car_Rental_System/target/Car_Rental_System-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="Car_Rental_System/web/Web" />
+      <element id="javaee-facet-resources" facet="Car_Rental_System_Back-End/web/Web" />
     </root>
   </artifact>
 </component>
