@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/../Car_Rental_System/pom.xml" />
         <option value="$PROJECT_DIR$/../Car_Rental_Back-End/pom.xml" />
+        <option value="$PROJECT_DIR$/Car_Rental_Back-End/pom.xml" />
       </list>
     </option>
   </component>
