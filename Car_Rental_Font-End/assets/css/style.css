@@ -236,7 +236,9 @@ button, a { transition: var(--transition); }
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
-
+.heading{
+  font-size: 20px;
+}
 .header-contact { display: none; }
 
 .header {
