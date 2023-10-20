@@ -238,11 +238,12 @@ button, a { transition: var(--transition); }
 \*-----------------------------------*/
 .heading{
   font-size: 20px;
+  color: white;
 }
 .header-contact { display: none; }
 
 .header {
-  background: var(--alice-blue-1);
+  background: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -318,7 +319,7 @@ button, a { transition: var(--transition); }
 }
 
 .navbar-link {
-  color: var(--independence);
+  color:var(--manatee);
   font-family: var(--ff-nunito);
   font-size: var(--fs-6);
   padding-block: 5px;
@@ -357,10 +358,11 @@ button, a { transition: var(--transition); }
 .hero-title {
   max-width: 20ch;
   margin-bottom: 15px;
+  color: white;
 }
 
 .hero-text {
-  color: var(--independence);
+  color: white;
   line-height: 1.8;
   margin-bottom: 30px;
 }
@@ -368,8 +370,8 @@ button, a { transition: var(--transition); }
 .hero-banner { display: none; }
 
 .hero-form {
-  background: var(--gradient);
-  border: 1px solid var(--white);
+  background: black;
+  border: 1px solid black;
   box-shadow: var(--shadow-1);
   border-radius: var(--radius-18);
   font-family: var(--ff-nunito);
@@ -964,12 +966,13 @@ button, a { transition: var(--transition); }
     min-height: 85vh;
     display: flex;
     align-items: center;
+    background-color: black;
     z-index: 1;
   }
 
   .hero-form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0.8fr;
+    grid-template-columns: 1fr  0.5fr;
   }
 
   .input-wrapper:not(:last-of-type) {
@@ -985,7 +988,7 @@ button, a { transition: var(--transition); }
 
   .hero-banner {
     display: block;
-    background: url("../images/hero-banner.jpg") no-repeat;
+    background: url("../images/benz.jpg") no-repeat;
     background-size: cover;
     background-position: left;
     position: absolute;
