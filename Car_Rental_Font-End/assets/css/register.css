@@ -10,7 +10,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: url(bg-image.jpg);
+    background: url(../images/register.jpg);
     background-size: cover;
 }
 
