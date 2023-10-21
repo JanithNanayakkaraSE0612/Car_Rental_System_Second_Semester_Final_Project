@@ -16,7 +16,10 @@ body{
     background-position: center;
 }
 .form-select{
-    
+    background: transparent;
+    box-shadow: 0 0 10px rgba( 0,0,0,.2);
+    border: 2px solid grey;
+    color: white;
 }
 .wrapper{
     position: relative;
