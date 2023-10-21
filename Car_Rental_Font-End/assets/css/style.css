@@ -104,7 +104,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
 
 li { list-style: none; }
 
@@ -414,6 +416,9 @@ button, a { transition: var(--transition); }
   #FEATURED CAR
 \*-----------------------------------*/
 
+#featured-car{
+  background-color: black;
+}
 .featured-car .title-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -571,7 +576,9 @@ button, a { transition: var(--transition); }
 /*-----------------------------------*\
   #GET START
 \*-----------------------------------*/
-
+.get-start{
+  background-color: black;
+}
 .get-start .section-title { margin-bottom: 25px; }
 
 .get-start-list {
