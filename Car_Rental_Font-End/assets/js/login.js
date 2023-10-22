@@ -1,3 +1,3 @@
 function func(){
-    window.location.assign("dashboard.html")
+    window.location.assign("adminDashboard.html")
 }
