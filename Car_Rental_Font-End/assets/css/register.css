@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -14,7 +15,7 @@ body{
     background-size: cover;
 }
 
-.container{
+/*.container{
     width: 100%;
     max-width: 650px;
     background: rgba(0, 0, 0, 0.5);
@@ -22,8 +23,8 @@ body{
     margin: 0 28px;
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
-}
-
+}*/
+/*
 .form-title{
     font-size: 26px;
     font-weight: 600;
@@ -141,3 +142,154 @@ body{
         width: 0;
     }
 }
+*/
+.Register-customer-new .register-img {
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Register-customer-new .register-form-bg {
+    background: #dcdde1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Register-customer-new .reg-customer-form {
+    padding: 40px;
+}
+
+@media (max-width: 575px) {
+    .Register-customer-new .reg-customer-form {
+        padding: 20px;
+    }
+}
+
+.Register-customer-new .reg-customer-form h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.Register-customer-new .reg-customer-form h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0 0 0;
+}
+
+.Register-customer-new .reg-customer-form p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.Register-customer-new .reg-customer-form .error-message {
+    display: none;
+    color: #fff;
+    background: #df1529;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.Register-customer-new .reg-customer-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.Register-customer-new .reg-customer-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+}
+
+.Register-customer-new .reg-customer-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #059652;
+    border-top-color: #fff;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.Register-customer-new .reg-customer-form input,
+.Register-customer-new .reg-customer-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.Register-customer-new .reg-customer-form input:focus {
+    border-color: var(--color-primary);
+}
+
+.Register-customer-new .reg-customer-form input {
+    padding: 12px 15px;
+}
+
+.Register-customer-new .width {
+    width: 25.2em;
+}
+
+@media (max-width: 425px) {
+    .Register-customer-new .width {
+        width: 100%;
+    }
+}
+
+@media (max-width: 316px) {
+    .cars {
+        display: none;
+    }
+}
+
+.Register-customer-new .reg-customer-form button[type=button] {
+    background: #218c74;
+    border: 0;
+    padding: 14px 60px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.Register-customer-new .reg-customer-form button[type=button]:hover {
+    background: #20bf6b;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
