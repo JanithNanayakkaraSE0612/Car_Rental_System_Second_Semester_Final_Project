@@ -1,8 +1,5 @@
 package lk.ijse.car.controller;
 
-import com.easy.car_rental.service.UserService;
-import com.easy.car_rental.util.CurrentUser;
-import com.easy.car_rental.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
