@@ -1,12 +1,6 @@
 package lk.ijse.car.controller;
 
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.dto.DriverDTO;
-import com.easy.car_rental.dto.UserDTO;
-import com.easy.car_rental.embeded.Name;
-import com.easy.car_rental.entity.Driver;
-import com.easy.car_rental.service.DriverService;
-import com.easy.car_rental.util.ResponseUtil;
+import lk.ijse.car.dto.UserDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
