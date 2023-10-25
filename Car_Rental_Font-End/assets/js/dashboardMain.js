@@ -15,7 +15,7 @@
     }
 
     /**
-     * Easy event listener function
+     * Easy event listener function ccmment
      */
     const on = (type, el, listener, all = false) => {
         if (all) {
