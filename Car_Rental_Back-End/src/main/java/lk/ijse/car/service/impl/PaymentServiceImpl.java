@@ -1,27 +1,19 @@
 package lk.ijse.car.service.impl;
 
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.dto.PaymentDTO;
-import com.easy.car_rental.entity.Car;
-import com.easy.car_rental.entity.Driver;
-import com.easy.car_rental.entity.Payment;
-import com.easy.car_rental.entity.Rent;
-import com.easy.car_rental.repo.CarRepo;
-import com.easy.car_rental.repo.DriverRepo;
-import com.easy.car_rental.repo.PaymentRepo;
-import com.easy.car_rental.repo.RentRepo;
-import com.easy.car_rental.service.PaymentService;
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.PaymentDTO;
+import lk.ijse.car.entity.Payment;
+import lk.ijse.car.entity.Rent;
+import lk.ijse.car.repo.CarRepo;
+import lk.ijse.car.repo.DriverRepo;
+import lk.ijse.car.repo.PaymentRepo;
+import lk.ijse.car.repo.RentRepo;
+import lk.ijse.car.service.PaymentService;
 import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
-
-import static com.easy.car_rental.enums.AvailabilityType.AVAILABLE;
-import static com.easy.car_rental.enums.AvailabilityType.UNDER_MAINTAIN;
-import static com.easy.car_rental.enums.RentRequest.PAY;
 
 
 @Service
@@ -45,7 +37,7 @@ public class PaymentServiceImpl implements PaymentService {
     }
 
     @Override
-    public void savePayment(PaymentDTO dto,String rentID) {
+    public void savePayment(PaymentDTO dto, String rentID) {
         Payment payment = mapper.map(dto, Payment.class);
         Rent rent = rentRepo.findById(rentID).get();
         if (rent.getRentDetails().get(0).getDriverID() != null) {

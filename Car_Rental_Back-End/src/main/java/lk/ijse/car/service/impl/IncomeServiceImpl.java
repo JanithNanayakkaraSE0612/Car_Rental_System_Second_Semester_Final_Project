@@ -1,8 +1,8 @@
 package lk.ijse.car.service.impl;
 
-import com.easy.car_rental.dto.IncomeDTO;
-import com.easy.car_rental.repo.IncomeRepo;
-import com.easy.car_rental.service.IncomeService;
+import lk.ijse.car.dto.IncomeDTO;
+import lk.ijse.car.repo.IncomeRepo;
+import lk.ijse.car.service.IncomeService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
