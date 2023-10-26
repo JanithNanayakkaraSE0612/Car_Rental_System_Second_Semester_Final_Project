@@ -1,6 +1,6 @@
 package lk.ijse.car.repo;
 
-import com.easy.car_rental.entity.Payment;
+import lk.ijse.car.entity.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
