@@ -1,9 +1,9 @@
 package lk.ijse.car.service.impl;
 
-import com.easy.car_rental.dto.AdminDTO;
-import com.easy.car_rental.entity.Admin;
-import com.easy.car_rental.repo.AdminRepo;
-import com.easy.car_rental.service.AdminService;
+import lk.ijse.car.dto.AdminDTO;
+import lk.ijse.car.entity.Admin;
+import lk.ijse.car.repo.AdminRepo;
+import lk.ijse.car.service.AdminService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;

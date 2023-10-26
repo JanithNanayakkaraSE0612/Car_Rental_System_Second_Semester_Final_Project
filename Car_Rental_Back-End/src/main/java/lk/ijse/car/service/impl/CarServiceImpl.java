@@ -1,11 +1,11 @@
 package lk.ijse.car.service.impl;
 
-import com.easy.car_rental.dto.CarDTO;
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.embeded.Image;
-import com.easy.car_rental.entity.Car;
-import com.easy.car_rental.repo.CarRepo;
-import com.easy.car_rental.service.CarService;
+import lk.ijse.car.dto.CarDTO;
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.embeded.Image;
+import lk.ijse.car.entity.Car;
+import lk.ijse.car.repo.CarRepo;
+import lk.ijse.car.service.CarService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
