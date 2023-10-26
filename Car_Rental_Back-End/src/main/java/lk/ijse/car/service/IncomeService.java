@@ -1,6 +1,6 @@
 package lk.ijse.car.service;
 
-import com.easy.car_rental.dto.IncomeDTO;
+import lk.ijse.car.dto.IncomeDTO;
 
 import java.util.ArrayList;
 

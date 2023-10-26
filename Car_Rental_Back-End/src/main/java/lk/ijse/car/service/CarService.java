@@ -1,11 +1,11 @@
 package lk.ijse.car.service;
 
-import com.easy.car_rental.dto.CarDTO;
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.entity.Car;
+
+import lk.ijse.car.dto.CarDTO;
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.entity.Car;
 
 import java.util.ArrayList;
-
 
 public interface CarService {
     void saveCar(CarDTO dto);

@@ -1,8 +1,8 @@
 package lk.ijse.car.service;
 
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.dto.Reg_UserDTO;
-import com.easy.car_rental.entity.Reg_User;
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.Reg_UserDTO;
+import lk.ijse.car.entity.Reg_User;
 
 import java.util.ArrayList;
 

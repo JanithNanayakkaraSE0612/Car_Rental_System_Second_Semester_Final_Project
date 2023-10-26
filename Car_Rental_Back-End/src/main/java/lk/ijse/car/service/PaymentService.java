@@ -1,13 +1,13 @@
 package lk.ijse.car.service;
 
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.dto.PaymentDTO;
+
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.PaymentDTO;
 
 import java.util.ArrayList;
 
-
 public interface PaymentService {
     CustomDTO paymentIdGenerate();
-    void savePayment(PaymentDTO dto,String rentID);
+    void savePayment(PaymentDTO dto, String rentID);
     ArrayList<PaymentDTO> getAllPayment();
 }
