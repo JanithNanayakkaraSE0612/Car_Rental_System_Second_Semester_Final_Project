@@ -1,5 +1,9 @@
 package lk.ijse.car.controller;
 
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.RentDTO;
+import lk.ijse.car.service.RentService;
+import lk.ijse.car.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +17,8 @@ public class RentController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/rentIdGenerate")
-    public @ResponseBody CustomDTO customerIdGenerate() {
+    public @ResponseBody
+    CustomDTO customerIdGenerate() {
         return service.rentIdGenerate();
     }
 

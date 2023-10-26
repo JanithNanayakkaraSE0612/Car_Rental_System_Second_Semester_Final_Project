@@ -1,30 +1,23 @@
 package lk.ijse.car.service.impl;
 
-import com.easy.car_rental.dto.CustomDTO;
-import com.easy.car_rental.dto.RentDTO;
-import com.easy.car_rental.entity.Car;
-import com.easy.car_rental.entity.Driver;
-import com.easy.car_rental.entity.Rent;
-import com.easy.car_rental.entity.RentDetails;
-import com.easy.car_rental.enums.RequestType;
-import com.easy.car_rental.repo.CarRepo;
-import com.easy.car_rental.repo.DriverRepo;
-import com.easy.car_rental.repo.RentRepo;
-import com.easy.car_rental.service.RentService;
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.RentDTO;
+import lk.ijse.car.entity.Car;
+import lk.ijse.car.entity.Driver;
+import lk.ijse.car.entity.Rent;
+import lk.ijse.car.entity.RentDetails;
+import lk.ijse.car.repo.CarRepo;
+import lk.ijse.car.repo.DriverRepo;
+import lk.ijse.car.repo.RentRepo;
+import lk.ijse.car.service.RentService;
 import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import static com.easy.car_rental.enums.AvailabilityType.AVAILABLE;
-import static com.easy.car_rental.enums.AvailabilityType.UNAVAILABLE;
-import static com.easy.car_rental.enums.RentRequest.CONFORM;
-import static com.easy.car_rental.enums.RentRequest.REJECT;
 
 @Service
 @Transactional
