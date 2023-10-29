@@ -1,5 +1,5 @@
 
-let userBaseUrl = "http://localhost:8080/Back-End_war/";
+let userBaseUrl = "http://localhost:8080/Car_Rental_Back-End_war/";
 loadAllRegUsers();
 $("#btnSaveCustomer").attr('disabled', true);
 $("#btnUpdateCustomer").attr('disabled', true);

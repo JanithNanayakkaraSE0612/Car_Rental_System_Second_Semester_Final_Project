@@ -1,5 +1,5 @@
 
-let driverBaseUrl = "http://localhost:8080/Back_End_war/";
+let driverBaseUrl = "http://localhost:8080/Car_Rental_Back-End_war/";
 loadAllDrivers();
 
 $("#btnSaveDriver").attr('disabled', true);
