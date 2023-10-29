@@ -33,6 +33,9 @@ body{
     padding: 30px 40px;
 }
 .wrapper h1{
+    margin-top: 9px;
+    position: relative;
+    top: -45px;
     font-size: 36px;
     text-align: center;
 }
@@ -106,4 +109,12 @@ body{
 }
 .register-link p a:hover{
     text-decoration: underline;
+}
+#dropdown1{
+    position: relative;
+    left: 120px;
+    top: -38px;
+}
+.form-select{
+    background: transparent;
 }
