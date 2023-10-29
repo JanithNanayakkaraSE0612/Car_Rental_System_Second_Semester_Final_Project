@@ -1,5 +1,6 @@
 package lk.ijse.car.config;
 
+import lk.ijse.car.advisor.AppWideExceptionHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackageClasses = {AppWideExceptionHandler.class}, basePackages = "com.easy.car_rental.controller")
+@ComponentScan(basePackageClasses = {AppWideExceptionHandler.class}, basePackages = "lk.ijse.car.controller")
 public class WebAppConfig implements WebMvcConfigurer {
     @Bean
     public CommonsMultipartResolver multipartResolver() {
