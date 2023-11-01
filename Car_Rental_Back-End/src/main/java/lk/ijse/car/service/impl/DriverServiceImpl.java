@@ -31,7 +31,7 @@ public class DriverServiceImpl implements DriverService {
     @Override
     public void saveDriver(DriverDTO dto) {
 
-        Driver driver = new Driver(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic_No(), dto.getLicense_No(), "", dto.getDriverAvailability(), new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
+      /*  Driver driver = new Driver(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic_No(), dto.getLicense_No(), "", dto.getDriverAvailability(), new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
         System.out.println(driver);
         if (repo.existsById(dto.getUser_Id()))
             throw new RuntimeException("Driver Already Exist. Please enter another id..!");
@@ -51,14 +51,14 @@ public class DriverServiceImpl implements DriverService {
             throw new RuntimeException(e);
         }
         System.out.println(driver);
-        repo.save(driver);
+        repo.save(driver);*/
 
     }
 
     @Override
     public void updateDriver(DriverDTO dto) {
 
-        Driver driver = new Driver(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic_No(), dto.getLicense_No(), "", dto.getDriverAvailability(), new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
+      /*  Driver driver = new Driver(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic_No(), dto.getLicense_No(), "", dto.getDriverAvailability(), new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
         System.out.println(driver);
         if (!repo.existsById(dto.getUser_Id())) {
             throw new RuntimeException("Driver Not Exist. Please enter Valid id..!");
@@ -79,7 +79,7 @@ public class DriverServiceImpl implements DriverService {
         }
         System.out.println(driver);
         repo.save(driver);
-
+*/
     }
 
     @Override

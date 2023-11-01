@@ -46,7 +46,7 @@ public class PaymentServiceImpl implements PaymentService {
         Rent rent = rentRepo.findById(rentID).get();
         if (rent.getRentDetails().get(0).getDriverID() != null) {
 
-            Driver drivers = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
+          /*  Driver drivers = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
             drivers.setDriverAvailability(AVAILABLE);
             driverRepo.save(drivers);
 
@@ -55,15 +55,15 @@ public class PaymentServiceImpl implements PaymentService {
             carRepo.save(car);
 
             rent.setRentType(PAY);
-            rentRepo.save(rent);
+            rentRepo.save(rent);*/
         }
         if (rent.getRentDetails().get(0).getDriverID() == null) {
-            Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
+          /*  Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
             car.setVehicleAvailabilityType(UNDER_MAINTAIN);
             carRepo.save(car);
 
             rent.setRentType(PAY);
-            rentRepo.save(rent);
+            rentRepo.save(rent);*/
         }
         paymentRepo.save(payment);
     }

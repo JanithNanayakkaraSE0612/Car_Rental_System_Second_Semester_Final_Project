@@ -31,7 +31,7 @@ public class Reg_UserServiceImpl implements Reg_UserService {
     @Override
     public void saveUser(Reg_UserDTO dto) {
 
-        Reg_User regUser = new Reg_User(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic(), dto.getLicense_No(), "", "", new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
+      /*  Reg_User regUser = new Reg_User(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic(), dto.getLicense_No(), "", "", new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
         if (repo.existsById(dto.getUser_Id()))
             throw new RuntimeException("User Already Exist. Please enter another id..!");
 
@@ -54,13 +54,13 @@ public class Reg_UserServiceImpl implements Reg_UserService {
         }
         System.out.println(regUser);
         repo.save(regUser);
-
+*/
     }
 
     @Override
     public void updateUser(Reg_UserDTO dto) {
 
-        Reg_User regUser = new Reg_User(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic(), dto.getLicense_No(), "", "", new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
+      /*  Reg_User regUser = new Reg_User(dto.getUser_Id(), dto.getName(), dto.getContact_No(), dto.getAddress(), dto.getEmail(), dto.getNic(), dto.getLicense_No(), "", "", new User(dto.getUser().getUser_Id(), dto.getUser().getRole_Type(), dto.getUser().getUser_Name(), dto.getUser().getPassword()));
         if (!repo.existsById(dto.getUser_Id())) {
             throw new RuntimeException("User Not Exist. Please enter Valid id..!");
         }
@@ -85,7 +85,7 @@ public class Reg_UserServiceImpl implements Reg_UserService {
         System.out.println(regUser);
         regUser.getUser().setRole_Type(RoleType.REGISTERED_USER);
         repo.save(regUser);
-
+*/
     }
 
     @Override

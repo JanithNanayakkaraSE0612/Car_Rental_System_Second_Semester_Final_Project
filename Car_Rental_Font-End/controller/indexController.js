@@ -1,5 +1,5 @@
 
-let carBaseUrl = "http://localhost:8080/Car_Rental_Back-End_war/";
+let carBaseUrl = "http://localhost:8080/Car_Rental_Back-End:war/";
 
 loadAllCars();
 

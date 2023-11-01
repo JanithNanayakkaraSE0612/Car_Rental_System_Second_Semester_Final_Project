@@ -40,7 +40,7 @@ public class RentServiceImpl implements RentService {
 
     @Override
     public void bookingCars(RentDTO dto) {
-        Rent rent = mapper.map(dto, Rent.class);
+ /*       Rent rent = mapper.map(dto, Rent.class);
 
         if (rentRepo.existsById(dto.getRentID())) {
             throw new RuntimeException("Booking" + dto.getRentID() + " Already added.!");
@@ -67,7 +67,7 @@ public class RentServiceImpl implements RentService {
             }
         }
 
-        rentRepo.save(rent);
+        rentRepo.save(rent);*/
     }
 
     @Override
@@ -97,7 +97,7 @@ public class RentServiceImpl implements RentService {
         Rent rent = rentRepo.findById(rentID).get();
 
         if (rent.getRentDetails().get(0).getDriverID() != null) {
-            Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
+ /*           Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
             car.setVehicleAvailabilityType(AVAILABLE);
             carRepo.save(car);
 
@@ -105,14 +105,14 @@ public class RentServiceImpl implements RentService {
             drivers.setDriverAvailability(AVAILABLE);
             driverRepo.save(drivers);
 
-            rentRepo.deleteById(rentID);
+            rentRepo.deleteById(rentID);*/
         }
         if (rent.getRentDetails().get(0).getDriverID() == null) {
-            Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
+           /* Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
             car.setVehicleAvailabilityType(AVAILABLE);
             carRepo.save(car);
 
-            rentRepo.deleteById(rentID);
+            rentRepo.deleteById(rentID);*/
         }
     }
 
@@ -121,7 +121,7 @@ public class RentServiceImpl implements RentService {
         Rent rent = rentRepo.findById(rentID).get();
         if (rent.getRentDetails().get(0).getDriverID() != null) {
 
-            Driver drivers = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
+           /* Driver drivers = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
             drivers.setDriverAvailability(AVAILABLE);
             driverRepo.save(drivers);
 
@@ -129,11 +129,11 @@ public class RentServiceImpl implements RentService {
             Driver driver = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
             driver.setDriverAvailability(UNAVAILABLE);
             rent.setRentType(CONFORM);
-            rentRepo.save(rent);
+            rentRepo.save(rent);*/
         }
         if (rent.getRentDetails().get(0).getDriverID() == null) {
-            rent.setRentType(CONFORM);
-            rentRepo.save(rent);
+           /* rent.setRentType(CONFORM);
+            rentRepo.save(rent);*/
         }
     }
 
@@ -142,7 +142,7 @@ public class RentServiceImpl implements RentService {
         Rent rent = rentRepo.findById(rentID).get();
         if (rent.getRentDetails().get(0).getDriverID() != null) {
 
-            Driver drivers = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
+          /*  Driver drivers = driverRepo.findById(rent.getRentDetails().get(0).getDriverID()).get();
             drivers.setDriverAvailability(AVAILABLE);
             driverRepo.save(drivers);
 
@@ -151,15 +151,15 @@ public class RentServiceImpl implements RentService {
             carRepo.save(car);
 
             rent.setRentType(REJECT);
-            rentRepo.save(rent);
+            rentRepo.save(rent);*/
         }
         if (rent.getRentDetails().get(0).getDriverID() == null) {
-            Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
+           /* Car car = carRepo.findById(rent.getRentDetails().get(0).getCarID()).get();
             car.setVehicleAvailabilityType(AVAILABLE);
             carRepo.save(car);
 
             rent.setRentType(REJECT);
-            rentRepo.save(rent);
+            rentRepo.save(rent);*/
         }
     }
 

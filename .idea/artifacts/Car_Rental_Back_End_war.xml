@@ -9,6 +9,11 @@
     </properties>
     <root id="archive" name="Car_Rental_Back-End-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="Car_Rental_Back-End:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="Car_Rental_Back-End/jpa/JPA" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
