@@ -2,6 +2,8 @@ package lk.ijse.car.service.impl;
 
 import lk.ijse.car.dto.CustomDTO;
 import lk.ijse.car.dto.PaymentDTO;
+import lk.ijse.car.entity.Car;
+import lk.ijse.car.entity.Driver;
 import lk.ijse.car.entity.Payment;
 import lk.ijse.car.entity.Rent;
 import lk.ijse.car.repo.CarRepo;
@@ -10,10 +12,12 @@ import lk.ijse.car.repo.PaymentRepo;
 import lk.ijse.car.repo.RentRepo;
 import lk.ijse.car.service.PaymentService;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 
 
 @Service

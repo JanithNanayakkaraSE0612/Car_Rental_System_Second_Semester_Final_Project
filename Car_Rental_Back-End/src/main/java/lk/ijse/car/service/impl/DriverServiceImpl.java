@@ -3,6 +3,7 @@ package lk.ijse.car.service.impl;
 import lk.ijse.car.dto.CustomDTO;
 import lk.ijse.car.dto.DriverDTO;
 import lk.ijse.car.entity.Driver;
+import lk.ijse.car.entity.User;
 import lk.ijse.car.repo.DriverRepo;
 import lk.ijse.car.service.DriverService;
 import org.modelmapper.ModelMapper;

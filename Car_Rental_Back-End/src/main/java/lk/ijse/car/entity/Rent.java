@@ -30,9 +30,9 @@ public class Rent {
 
     @ManyToOne(cascade = {CascadeType.REFRESH, CascadeType.DETACH})
     @JoinColumn(name = "userID", referencedColumnName = "user_Id", nullable = false)
-    private com.easy.car_rental.entity.Reg_User regUser;
+    private lk.ijse.car.entity.Reg_User regUser;
 
     @OneToMany(mappedBy = "rent", cascade = CascadeType.ALL)
-    private List<com.easy.car_rental.entity.RentDetails> rentDetails;
+    private List<lk.ijse.car.entity.RentDetails> rentDetails;
 
 }
