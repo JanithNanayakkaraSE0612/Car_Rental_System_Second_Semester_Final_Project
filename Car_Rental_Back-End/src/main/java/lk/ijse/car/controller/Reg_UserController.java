@@ -1,5 +1,12 @@
 package lk.ijse.car.controller;
 
+import lk.ijse.car.dto.CustomDTO;
+import lk.ijse.car.dto.Reg_UserDTO;
+import lk.ijse.car.dto.UserDTO;
+import lk.ijse.car.embeded.Name;
+import lk.ijse.car.entity.Reg_User;
+import lk.ijse.car.service.Reg_UserService;
+import lk.ijse.car.util.ResponseUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -50,7 +57,8 @@ public class Reg_UserController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/reg_UserIdGenerate")
-    public @ResponseBody CustomDTO customerIdGenerate() {
+    public @ResponseBody
+    CustomDTO customerIdGenerate() {
         return service.userIdGenerate();
     }
 
