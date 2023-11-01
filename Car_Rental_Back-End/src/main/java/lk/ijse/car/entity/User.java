@@ -24,7 +24,8 @@ public class User {
     private String user_Name;
     private String password;
 
-    public User(RoleType role_Type, String user_Name, String password) {
+    public User(String user_Id,RoleType role_Type, String user_Name, String password) {
+        this.user_Id = user_Id;
         this.role_Type = role_Type;
         this.user_Name = user_Name;
         this.password = password;
