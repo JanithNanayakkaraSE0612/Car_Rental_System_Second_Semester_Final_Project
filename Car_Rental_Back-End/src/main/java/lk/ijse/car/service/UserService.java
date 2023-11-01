@@ -3,6 +3,8 @@ package lk.ijse.car.service;
 
 import lk.ijse.car.dto.UserDTO;
 
+import java.util.ArrayList;
+
 public interface UserService {
     ArrayList<UserDTO> getAllRegUsers();
 
