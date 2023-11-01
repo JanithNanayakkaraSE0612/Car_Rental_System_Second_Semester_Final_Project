@@ -2,7 +2,7 @@ package lk.ijse.car.controller;
 
 import lk.ijse.car.dto.CarDTO;
 import lk.ijse.car.dto.CustomDTO;
-import lk.ijse.car.embeded.ImageDTO;
+import lk.ijse.car.dto.ImageDTO;
 import lk.ijse.car.embeded.Rate;
 import lk.ijse.car.entity.Car;
 import lk.ijse.car.service.CarService;

@@ -1,5 +1,7 @@
 package lk.ijse.car;
 
+import lk.ijse.car.config.WebAppConfig;
+import lk.ijse.car.config.WebRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

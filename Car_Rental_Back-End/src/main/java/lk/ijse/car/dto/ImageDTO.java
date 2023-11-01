@@ -1,4 +1,4 @@
-package lk.ijse.car.embeded;
+package lk.ijse.car.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
