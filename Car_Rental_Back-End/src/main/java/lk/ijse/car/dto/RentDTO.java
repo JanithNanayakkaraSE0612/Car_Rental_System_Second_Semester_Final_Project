@@ -1,7 +1,5 @@
 package lk.ijse.car.dto;
 
-import com.easy.car_rental.enums.RentRequest;
-import com.easy.car_rental.enums.RequestType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,7 +9,8 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
-
+import lk.ijse.car.enums.RequestType;
+import lk.ijse.car.enums.RentRequest;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString

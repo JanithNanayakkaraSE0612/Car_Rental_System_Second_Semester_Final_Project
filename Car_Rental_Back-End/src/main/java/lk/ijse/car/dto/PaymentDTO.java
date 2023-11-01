@@ -1,6 +1,5 @@
 package lk.ijse.car.dto;
 
-import com.easy.car_rental.enums.PaymentType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,6 +7,7 @@ import lombok.ToString;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import lk.ijse.car.enums.PaymentType;
 
 
 @NoArgsConstructor

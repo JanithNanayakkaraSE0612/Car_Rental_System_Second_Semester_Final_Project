@@ -3,6 +3,9 @@ package lk.ijse.car.dto;
 
 import lk.ijse.car.embeded.Rate;
 import lk.ijse.car.enums.TransmissionType;
+import lk.ijse.car.enums.CarType;
+import lk.ijse.car.enums.FuelType;
+import lk.ijse.car.enums.AvailabilityType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
