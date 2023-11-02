@@ -46,7 +46,9 @@
 
 body {
     font-family: var(--font-default);
-    color: var(--color-default);
+    color: #fff;
+    font-size: 20px;
+    background-color: black;
 }
 
 a {
@@ -93,7 +95,7 @@ section {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    color: #7f7f90;
+    color: #fff;
     text-transform: uppercase;
     font-family: var(--font-default);
 }
@@ -103,6 +105,7 @@ section {
     font-size: 48px;
     font-weight: 400;
     font-family: var(--font-primary);
+    color: #fff;
 }
 
 .section-header p span {
@@ -287,11 +290,10 @@ section {
 --------------------------------------------------------------*/
 
 .header {
-    background: #fff;
+    background: black;
     transition: all 0.5s;
     z-index: 997;
     height: 90px;
-    border-bottom: 1px solid #fff;
 }
 
 @media (max-width: 575px) {
@@ -312,7 +314,7 @@ section {
 .header .logo h1 {
     font-size: 28px;
     font-weight: bolder;
-    color: #000;
+    color: white;
     margin: 0;
     font-family: var(--font-secondary);
 }
@@ -397,7 +399,7 @@ section {
         font-family: var(--font-secondary);
         font-size: 16px;
         font-weight: 600;
-        color: #7f7f90;
+        color: #ffffff;
         white-space: nowrap;
         transition: 0.3s;
         position: relative;
@@ -434,7 +436,7 @@ section {
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover > a {
-        color: #000;
+        color: red;
     }
 
     .navbar .dropdown ul {
@@ -523,7 +525,9 @@ section {
         right: -100%;
         width: 100%;
         max-width: 400px;
+        /*
         border-left: 1px solid #666;
+        */
         bottom: 0;
         transition: 0.3s;
         z-index: 9997;
@@ -550,7 +554,7 @@ section {
         border-bottom: 2px solid rgba(255, 255, 255, 0.8);
         font-size: 16px;
         font-weight: 600;
-        color: #7f7f90;
+        color: #ffffff;
         white-space: nowrap;
         transition: 0.3s;
     }
@@ -564,7 +568,7 @@ section {
 
     .navbar a:hover,
     .navbar li:hover > a {
-        color: #000;
+        color: red;
     }
 
     .navbar .active,
@@ -634,6 +638,7 @@ section {
 
 .hero {
     width: 100%;
+    background-color: black;
     background-size: cover;
     position: relative;
     min-height: 60vh;
@@ -644,7 +649,7 @@ section {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: var(--color-secondary);
+    color: white;
     font-family: var(--font-primary);
 }
 
@@ -653,7 +658,7 @@ section {
 }
 
 .hero p {
-    color: #4f4f5a;
+    color: #fff;
     font-weight: 400;
     margin-bottom: 30px;
 }
