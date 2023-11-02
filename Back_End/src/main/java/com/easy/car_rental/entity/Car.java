@@ -13,10 +13,7 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
+
 @Entity
 @Data
 @NoArgsConstructor

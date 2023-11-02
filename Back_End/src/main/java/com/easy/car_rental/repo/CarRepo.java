@@ -6,10 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.ArrayList;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 public interface CarRepo extends JpaRepository<Car, String> {
     @Query(value = "SELECT car_Id FROM Car ORDER BY car_Id DESC LIMIT 1", nativeQuery = true)
     String getLastIndex();
