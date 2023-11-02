@@ -81,7 +81,7 @@ section {
 }
 
 .section-bg {
-    background-color: #eee;
+    background-color: black;
 }
 
 .section-header {
@@ -797,75 +797,6 @@ section {
     margin-bottom: 0;
 }
 
-.about .play-btn {
-    width: 86px;
-    height: 86px;
-    background: radial-gradient(var(--color-primary) 50%, rgba(206, 18, 18, 0.4) 52%);
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    left: calc(50% - 47px);
-    top: calc(50% - 47px);
-    overflow: hidden;
-}
-
-.about .play-btn:before {
-    content: "";
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-    -webkit-animation: pulsate-btn 2s;
-    animation: pulsate-btn 2s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    opacity: 1;
-    border-radius: 50%;
-    border: 5px solid rgba(206, 18, 18, 0.7);
-    top: -15%;
-    left: -15%;
-    background: rgba(198, 16, 0, 0);
-}
-
-.about .play-btn:after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-40%) translateY(-50%);
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
-    z-index: 100;
-    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.about .play-btn:hover:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-40%) translateY(-50%);
-    width: 0;
-    height: 0;
-    border: none;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
-    z-index: 200;
-    -webkit-animation: none;
-    animation: none;
-    border-radius: 0;
-}
-
-.about .play-btn:hover:after {
-    border-left: 15px solid var(--color-primary);
-    transform: scale(20);
-}
-
 @-webkit-keyframes pulsate-btn {
     0% {
         transform: scale(0.6, 0.6);
@@ -888,45 +819,6 @@ section {
     }
 }
 
-
-/*--------------------------------------------------------------
-# Stats Counter Section
---------------------------------------------------------------*/
-
-.stats-counter {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/counter-bg.jpg") center center;
-    background-size: cover;
-    padding: 42px 0;
-}
-
-@media (min-width: 1365px) {
-    .stats-counter {
-        background-attachment: fixed;
-    }
-}
-
-.stats-counter .stats-item {
-    padding: 30px;
-    width: 100%;
-}
-
-.stats-counter .stats-item span {
-    font-size: 48px;
-    display: block;
-    color: #fff;
-    font-weight: 700;
-}
-
-.stats-counter .stats-item p {
-    padding: 0;
-    margin: 0;
-    font-family: var(--font-secondary);
-    font-size: 18px;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-
 /*--------------------------------------------------------------
 # Car Section
 --------------------------------------------------------------*/
@@ -937,7 +829,7 @@ section {
     gap: 1rem;
     position: relative;
     top: 1rem;
-    background: white;
+    background: black;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
@@ -1109,7 +1001,7 @@ section {
 }
 
 .list-group-item {
-    background: #eee; /* fallback for old browsers */
+    background: white; /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); !* Chrome 10-25, Safari 5.1-6 *!*/
     /*background: linear-gradient(to right, #E2E2E2, #C9D6FF); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
     padding: 6px;
