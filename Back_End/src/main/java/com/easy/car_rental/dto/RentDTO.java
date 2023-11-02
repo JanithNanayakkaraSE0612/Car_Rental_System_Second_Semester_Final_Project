@@ -13,10 +13,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
+
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString

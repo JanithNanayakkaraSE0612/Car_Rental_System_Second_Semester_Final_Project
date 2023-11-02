@@ -8,11 +8,6 @@ import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackageClasses = {AppWideExceptionHandler.class}, basePackages = "com.easy.car_rental.controller")

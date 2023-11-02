@@ -16,10 +16,6 @@ import javax.persistence.Embedded;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

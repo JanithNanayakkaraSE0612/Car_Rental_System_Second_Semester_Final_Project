@@ -9,10 +9,6 @@ import lombok.ToString;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString

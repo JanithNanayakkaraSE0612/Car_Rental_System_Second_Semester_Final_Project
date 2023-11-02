@@ -8,10 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.springframework.web.multipart.MultipartFile;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

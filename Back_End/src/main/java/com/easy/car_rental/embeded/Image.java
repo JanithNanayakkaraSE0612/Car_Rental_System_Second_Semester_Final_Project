@@ -7,10 +7,6 @@ import lombok.ToString;
 
 import javax.persistence.Embeddable;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Embeddable
 @NoArgsConstructor
 @AllArgsConstructor

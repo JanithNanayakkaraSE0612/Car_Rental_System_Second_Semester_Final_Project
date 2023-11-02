@@ -18,10 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
+
 @Configuration
 @EnableTransactionManagement //AOP Usage
 @EnableJpaRepositories(basePackages = "com.easy.car_rental.repo")

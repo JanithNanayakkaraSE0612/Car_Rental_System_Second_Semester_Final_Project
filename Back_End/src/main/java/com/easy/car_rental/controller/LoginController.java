@@ -12,10 +12,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @RestController
 @CrossOrigin
 @RequestMapping("/loginForm")
