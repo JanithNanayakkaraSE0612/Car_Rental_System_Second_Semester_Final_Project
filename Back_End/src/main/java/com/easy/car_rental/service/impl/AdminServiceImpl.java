@@ -1,11 +1,8 @@
 package com.easy.car_rental.service.impl;
 
 import com.easy.car_rental.dto.AdminDTO;
-import com.easy.car_rental.dto.Reg_UserDTO;
 import com.easy.car_rental.entity.Admin;
-import com.easy.car_rental.entity.Reg_User;
 import com.easy.car_rental.repo.AdminRepo;
-import com.easy.car_rental.repo.Reg_UserRepo;
 import com.easy.car_rental.service.AdminService;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
@@ -15,10 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Service
 @Transactional
 public class AdminServiceImpl implements AdminService {

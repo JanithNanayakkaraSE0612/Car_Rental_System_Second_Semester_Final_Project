@@ -26,10 +26,7 @@ import static com.easy.car_rental.enums.AvailabilityType.UNAVAILABLE;
 import static com.easy.car_rental.enums.RentRequest.CONFORM;
 import static com.easy.car_rental.enums.RentRequest.REJECT;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
+
 @Service
 @Transactional
 public class RentServiceImpl implements RentService {

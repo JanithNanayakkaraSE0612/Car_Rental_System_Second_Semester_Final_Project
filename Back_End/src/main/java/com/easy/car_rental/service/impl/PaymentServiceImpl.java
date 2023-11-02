@@ -2,7 +2,6 @@ package com.easy.car_rental.service.impl;
 
 import com.easy.car_rental.dto.CustomDTO;
 import com.easy.car_rental.dto.PaymentDTO;
-import com.easy.car_rental.dto.Reg_UserDTO;
 import com.easy.car_rental.entity.Car;
 import com.easy.car_rental.entity.Driver;
 import com.easy.car_rental.entity.Payment;
@@ -25,10 +24,6 @@ import static com.easy.car_rental.enums.AvailabilityType.UNDER_MAINTAIN;
 import static com.easy.car_rental.enums.RentRequest.PAY;
 import static com.easy.car_rental.enums.RentRequest.REJECT;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Service
 @Transactional
 public class PaymentServiceImpl implements PaymentService {

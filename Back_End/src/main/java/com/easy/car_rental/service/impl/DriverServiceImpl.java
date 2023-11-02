@@ -17,10 +17,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
+
 @Service
 @Transactional
 public class DriverServiceImpl implements DriverService {

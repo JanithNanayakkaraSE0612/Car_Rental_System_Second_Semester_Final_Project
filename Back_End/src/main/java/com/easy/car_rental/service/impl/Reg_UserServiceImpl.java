@@ -18,12 +18,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 
-import static com.easy.car_rental.enums.AvailabilityType.UNAVAILABLE;
 
-/**
- * @author : Nimesh Piyumantha
- * @since : 0.1.0
- **/
 @Service
 @Transactional
 public class Reg_UserServiceImpl implements Reg_UserService {
