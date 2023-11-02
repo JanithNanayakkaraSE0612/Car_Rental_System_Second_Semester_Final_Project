@@ -822,7 +822,9 @@ section {
 /*--------------------------------------------------------------
 # Car Section
 --------------------------------------------------------------*/
-
+.previuous{
+    background: black;
+}
 .form-container form {
     display: flex;
     flex-wrap: wrap;
@@ -1163,11 +1165,11 @@ section {
 }
 
 .Register-customer-new .register-form-bg {
-    background: #dcdde1;
+    background: black;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
+    background: black;
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #dcdde1);
+    background: grey;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
