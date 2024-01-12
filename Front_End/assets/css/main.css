@@ -1596,6 +1596,7 @@ section {
 }
 
 .footer .copyright {
+    display: flex;
     text-align: center;
     padding-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
