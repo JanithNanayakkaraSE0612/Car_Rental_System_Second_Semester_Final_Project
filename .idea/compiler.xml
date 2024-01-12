@@ -11,7 +11,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Back_End" target="8" />
       <module name="Car_Rental_Back-End" target="8" />
       <module name="Car_Rental_System_Back-End" target="1.5" />
     </bytecodeTargetLevel>

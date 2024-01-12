@@ -39,6 +39,7 @@ function login() {
                             data:res.data,
                             method:"get",
                             success:function (res1) {
+                                console.log(res1);
                             }
                         });
                         window.location.href = 'reg_UserDashboard.html';
