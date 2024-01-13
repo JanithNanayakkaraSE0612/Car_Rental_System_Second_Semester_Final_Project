@@ -6,7 +6,7 @@
 
 .popular .box-container .box {
     padding: 2rem;
-    background: #222;
+    background: transparent;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border: 0.1rem solid rgba(0, 0, 0, 0.3);
     border-radius: 0.5rem;
@@ -43,4 +43,42 @@
     color: gold;
     font-size: 1.7rem;
     padding: 1rem 0.1rem;
+}
+
+.popular {
+    padding: 3rem 9%;
+}
+
+.popularHeading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.popularHeading span {
+    color: #ff5722;
+    font-size: 2rem;
+}
+
+.popularHeading h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #ff5722;
+    border: 0.5rem solid #ff5722;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ff5722;
+    color: #111;
 }
