@@ -15,8 +15,7 @@
     --alice-blue-3: hsl(216, 38%, 95%);
     --color-primary: #ce1212;
     --fs-3: 1.5rem;
-    --fw-400: 400;
-    --fw-600: 600;
+
     --color-secondary: #37373f;
     --blue-jeans: hsl(204, 80%, 63%);
     --beau-blue: hsl(208, 86%, 92%);
@@ -101,50 +100,7 @@ h6 {
     font-family: var(--font-secondary);
 }
 
-button, a { transition: var(--transition); }
 
-.btn {
-    position: relative;
-    background: var(--background, var(--carolina-blue));
-    color: var(--color, var(--white));
-    min-width: var(--width, 40px);
-    min-height: var(--height, 40px);
-    padding: 5px;
-    display: grid;
-    place-items: center;
-    border-radius: var(--radius-14);
-    font-family: var(--ff-nunito);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-600);
-    overflow: hidden;
-}
-
-.btn ion-icon {
-    font-size: 22px;
-    --ionicon-stroke-width: 40px;
-}
-
-.btn::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.4), transparent);
-    opacity: 0;
-    pointer-events: none;
-    transition: var(--transition);
-}
-
-.btn:is(:hover, :focus) { box-shadow: var(--shadow-2); }
-
-.btn:is(:hover, :focus)::before { opacity: 1; }
-
-a,
-img,
-span,
-label,
-input,
-button,
-ion-icon { display: block; }
 
 /*--------------------------------------------------------------
 # Sections & Section Header
