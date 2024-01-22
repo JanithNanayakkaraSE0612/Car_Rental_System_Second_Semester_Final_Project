@@ -3,19 +3,20 @@ section{
     justify-content: center;
     align-items: center;
 }
+
 img{
     width: 160px;
     height: 160px;
     border-radius: 60%;
 }
+
 .img-card{
     margin-top: 100px;
     justify-content: center;
     align-items: center;
 }
+
 .head-card{
     justify-content: center;
     align-items: center;
-    background-clip: padding-box;
-    box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
 }
